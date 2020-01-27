@@ -27,19 +27,19 @@ public class Main {
           String squareRoot = "WeightLifting";
          
           if (op.equals(plus)) {
-              System.out.println("Do 15 of each activity: Toe and Heel Walks for 30 meters, Skip for 30 meters, Hip Circles, Lunge in place,and Inchworn ");
+              System.out.println("Do 10 of each activity: Toe and Heel Walks for 20 meters, Skip for 20 meters, Hip Circles, Lunge in place,and Inchworn ");
               
           }
           else if (op.equals(minus)) {
-              System.out.println("Do 15 of each activity: dumbbells of 20 pounds for both arms, kettlebell swing, Squats for 60 seconds, Planks for 60 seconds, and Bench press - only add more weights if you feel confident.  ");
+              System.out.println("Do 10 of each activity: dumbbells of 10 pounds for both arms, kettlebell swing, Squats for 30 seconds, Planks for 30 seconds, and Bench press - only add more weights if you feel confident.  ");
               
           }
           else if (op.equals(multiply)) {
-              System.out.println("Start in a Plank Position, and lift one arm out ahead of you. Then fan it out to the side and bring it back. Do this on the opposite side, then repeat this 20 times. ");
+              System.out.println("Start in a Plank Position, and lift one arm out ahead of you. Then fan it out to the side and bring it back. Do this on the opposite side, then repeat this 12 times. ");
               
           }
           else if (op.equals(divide)) {
-              System.out.println("Hold a 90 second plank.");
+              System.out.println("Hold a 60 second plank.");
               
           }
           else if (op.equals(power)) {
@@ -47,7 +47,7 @@ public class Main {
               
           }
           else if (op.equals(squareRoot)) {
-              System.out.println("5 Sets of 10-15 squats. Make sure to rest for 3 minutes between sets if you are feeling tired. ");
+              System.out.println("3 Sets of 8-10 squats. Make sure to rest for 2 minutes between sets if you are feeling tired. ");
               
           }
           else {
