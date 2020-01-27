@@ -13,45 +13,27 @@ public class Main {
       Scanner input = new Scanner(System.in);
     
       String ip;
-      System.out.println("Please enter a workout option: Aerobicfitness,Strengthtraining, Coreexercises,Balancetraining,FlexibilityandStretching, FlexibilityandStretching");
+      System.out.println("Please enter a Diet or Cleanse Option: KetoDiet, PaleoDiet, JuiceCleanse ");
+      
       
       String op;
       while (true) {
           op = input.next();
-          String plus = "Aerobicfitness";
-          String minus = "Strengthtraining";  
-          String divide = "Coreexercises";
-          String multiply = "Balancetraining";
-          String power = "FlexibilityandStretching";
-          String squareRoot = "WeightLifting";
-         
-          if (op.equals(plus)) {
-              System.out.println("Do 5 of each activity: Toe and Heel Walks for 10 meters, Skip for 10 meters, Hip Circles, Lunge in place,and Inchworn ");
-              
+          String decimaltohexadecimal = "KetoDiet";
+          String hexadecimaltodecimal = "PaleoDiet";
+          String decimaltooctal = "JuiceCleanse";
+          if (op.equals(decimaltohexadecimal)) {
+              System.out.println("The Keto Diet: This diet consists of replacing carbohydrates with fats by consuming primarily meat. This puts the body in a state of ketotis, where metabolism is increased. ");
           }
-          else if (op.equals(minus)) {
-              System.out.println("Do 5 of each activity: dumbbells of 10 pounds for both arms, kettlebell swing, Squats for 25 seconds, Planks for 25 seconds, and Bench press - only add more weights if you feel confident.  ");
-              
+          else if (op.equals(hexadecimaltodecimal)) {
+              System.out.println("The Paleo Diet: This diet is primarily focused on consuming the same types of food that our hunter-gatherer ancestors consumed thousands of years ago. Foods to consume are Meat, fish, eggs, vegetables, fruits, nuts, seeds, herbs, spices, healthy fats and oils. Foods to avoid are Processed foods, sugar, soft drinks, grains, dairy products, legumes, artificial sweeteners, vegetable oils, margarine and trans fats.");
           }
-          else if (op.equals(multiply)) {
-              System.out.println("Start in a Plank Position, and lift one arm out ahead of you. Then fan it out to the side and bring it back. Do this on the opposite side, then repeat this 6 times. ");
-              
-          }
-          else if (op.equals(divide)) {
-              System.out.println("Hold a 30 second plank.");
-              
-          }
-          else if (op.equals(power)) {
-              System.out.println("Stand upright. Roll your shoulders up, back, and down. Your thumbs should be pointing forward as you start the move. Palms point forward, elbows slightly bent, as you finish each shoulder roll. Do this until your shoulders feel loose.");
-              
-          }
-          else if (op.equals(squareRoot)) {
-              System.out.println("2 Sets of 4-6 squats. Make sure to rest for 2 minutes between sets if you are feeling tired. ");
-              
+          else if (op.equals(decimaltooctal)) {
+              System.out.println("Juice Cleanse: This diet is about drinking only vegetable juices. You can blend them yourself or buy them online. If you plan on blending your own juice some recommended options for vegetables are Kale, Spinach, Cucumbers, Carrots, Ginger, and even some fruits like Oranges and Apples.");
           }
           else {
-              System.out.println("Invalid input! Enter a Workout Option:");
-          }    
+              System.out.println("Invalid input! Enter a Diet or Cleanse Option:");
+          }  
       }
   }
   private static int findGCD(int num3, int num4) {
