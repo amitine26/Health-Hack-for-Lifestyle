@@ -1,15 +1,14 @@
 body {
-  background-color:#ff6666;
+  background-color:#b2ccff;
   text-align:center;
-  color:#330000;
+  color:#004d4d;
   font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
-
 .button {
-  background-color: #330000;
+  background-color: #004d4d;
   border: none;
-  color: #ffcccc;
+  color: #b2ccff;
   padding: 15px 25px;
   text-align: center;
   font-size: 16px;
@@ -17,5 +16,5 @@ body {
 }
 
 .button:hover {
-  background-color: #990000;
+  background-color: #006e6e;
 }
