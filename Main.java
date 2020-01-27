@@ -13,37 +13,36 @@ public class Main {
       Scanner input = new Scanner(System.in);
     
       String ip;
-      System.out.println("Please enter a Lunch Option: HasselbackSweetPotatoes, Gazpacho, ChickenandBroccoliStir-Fry ");
+      System.out.println("Please enter a Breakfast Option:BreakfastBurrito, BaconandEggcups, ChiaSeedPudding ");
       
       
       String op;
       while (true) {
           op = input.next();
-          String gcd = "HasselbackSweetPotatoes";
-          String lcm = "Gazpacho";
-          String summation = "ChickenandBroccoliStir-Fry";
-          if (op.equals(gcd)) {
-             System.out.println("Ingredients: 4 medium sweet potatoes 1 tablespoon unsalted butter, melted 1teaspoon olive oil 1 teaspoon finely chopped fresh thyme leave 1 garlic clove, finely grated on a microplane Kosher salt and freshly ground black pepper 1/3 cup nonfat Greek-style yogurt 1 scallion, white and green parts chopped");
-             
-System.out.println("Directions: 1. Preheat the oven to 425 degrees F. Line a baking sheet with aluminum foil. 2. Make a series of 1/8-inch slices along each potato, slicing 2/3 of the way through. 3. Stir together the butter, oil, thyme, garlic, 1/4 teaspoon salt and 1/4 teaspoon pepper in a small bowl. Rub the potatoes all over with the mixture, getting in between the slices. 4. on the baking sheet and roast until the center of the potatoes are tender and the outside is crisp, 50 minutes to 1 hour. Halfway through the roasting time, remove the potatoes from the oven and run a fork gently across the tops of the potatoes, using light pressure, to fan the slices and separate them from one another. 5. Meanwhile, stir the yogurt and scallions with a pinch salt and a pinch pepper. Serve the sauce with the potatoes.  ");
+          String ePower = "BreakfastBurrito";
+          String max = "BaconandEggCups";
+          String min = "ChiaSeedPudding";
+          if (op.equals(ePower)) {
+              System.out.println("Ingredients: 2 teaspoons canola oil    /2 small red onion, diced (1 cup) 1 red bell pepper, seeded and diced1 cup drained, rinsed canned black beans, preferably low-sodium 1/4 teaspoon chili flakes Salt and freshly ground black pepper 4 eggs and 4 egg whites 1/3 cup (about 1 1/2 ounce) shredded pepper Jack cheese Nonstick cooking spray 4 (10 inch) whole wheat tortillas (burrito size) 1/4 cup reduced fat-free sour cream 1/4 cup salsa 1 large tomato, (4 ounces) seeded and diced  1 small avocado (4 ounces), cubed ");
+ System.out.println("Directions: 1.Heat the canola oil in a large nonstick skillet over a medium-high heat. Cook the onions and peppers until onions are softened and peppers are slightly charred, about 8 minutes. Add black beans and red pepper flakes and cook until warmed through, another 3 minutes. Season with salt and pepper and transfer to a dish. 2. Whisk together the eggs and egg whites then stir in the cheese. Spray the skillet with cooking spray, and reheat the skillet over a medium heat. Reduce heat to low and add eggs, scrambling until cooked through, about 3 minutes. Spread each tortilla with 1 tablespoon each sour cream and salsa, then layer with 1/4 of the black bean mixture, 1/4 of the scrambled eggs, some diced tomato and 1/4 of the avocado. Season, to taste, with hot sauce. Roll up burrito-style and serve.");
 System.out.println("Yields: 4 servings ");
               
           }
-          else if (op.equals(lcm)) {
-           System.out.println("Ingredients: 1 1/2 pounds vine-ripened tomatoes, peeled, seeded and chopped Tomato juice 1 cup cucumber, peeled, seeded and chopped 1/2 cup chopped red bell pepper 1/2 cup chopped red onion 1 small jalapeno, seeded and minced 1 medium garlic clove, minced 1/4 cup extra-virgin olive oil 1 lime, juiced 2 teaspoons balsamic vinegar 2 teaspoons Worcestershire sauce 1/2 teaspoon toasted, ground cumin 1 teaspoon kosher salt 1/4 teaspoon freshly ground black pepper 2 tablespoons fresh basil leaves, chiffonade");
- System.out.println("Directions: 1. Fill a 6-quart pot halfway full of water, set over high heat and bring to a boil. 2. Make an X with a paring knife on the bottom of the tomatoes. Drop the tomatoes into the boiling water for 15 seconds, remove and transfer to an ice bath and allow to cool until able to handle, approximately 1 minute. Remove and pat dry. Peel, core and seed the tomatoes. When seeding the tomatoes, place the seeds and pulp into a fine mesh strainer set over a bowl in order to catch the juice. Press as much of the juice through as possible and then add enough bottled tomato juice to bring the total to 1 cup. 3. Place the tomatoes and juice into a large mixing bowl. Add the cucumber, bell pepper, red onion, jalapeno, garlic clove, olive oil, lime juice, balsamic vinegar, Worcestershire, cumin, salt and pepper and stir to combine. Transfer 1 1/2 cups of the mixture to a blender and puree for 15 to 20 seconds on high speed. Return the pureed mixture to the bowl and stir to combine. Cover and chill for 2 hours and up to overnight. Serve with chiffonade of basil.");
-     System.out.println("Yields: 4 servings");
+          else if (op.equals(max)) {
+             System.out.println("Ingredients: 12 strips sugar-free bacon (about 10 ounces  2 red potatoes, sliced 1/8 inch thick, rounded ends discarded 1 small red bell pepper, finely chopped 12 large eggs 2 tablespoons chopped fresh chives");
+ System.out.println("Directions: 1. Preheat the oven to 400 degrees F. Wrap 1 piece of bacon around the inside of each cup of a 12-cup muffin tin to create rings. Put 1 slice of potato on the bottom of each cup and divide the bell pepper pieces among the cups. 2. Bake until the fat starts to render from the bacon (it will bubble in the bottom of each cup) and the bacon begins to crisp and turn light brown on the top edges, 10 to 12 minutes. 3. Remove the tin from the oven and crack an egg into each cup, making sure the yolk is inside the bacon ring. Continue baking until the bacon is crisp, the egg whites are cooked through and the yolks are still runny, about 10 minutes longer. Run an offset spatula around the edges and remove to a platter. Sprinkle with the chives and serve with hot sauce if desired.  ");
+System.out.println("Yields: 12 servings  ");
               
           }
-                   else if (op.equals(summation)) {
-             System.out.println("Ingredients: 1 pound chicken breast (about 2 breasts), cubed 3 scallions, whites only, thinly sliced on a bias 2 tablespoons sugar 1 tablespoon dark sesame oil 1 tablespoon dry sherry 1 tablespoon soy sauce 2 cloves garlic, minced 1-inch piece peeled fresh ginger, minced 1 tablespoon, plus 1 teaspoon cornstarch Kosher salt and freshly ground black pepper About 1/3 cup water 3 tablespoons vegetable oil 5 to 6 cups broccoli florets and sliced stalks (keep the 2 cuts separate) 3/4 to 1 teaspoon red chili flakes, optional 1 tablespoon hoisin sauce Toasted sesame seeds, for serving, optional Jasmine rice, for serving, optional ");
-System.out.println("Directions: 1. In a medium bowl, toss the chicken with the scallion whites, sugar, sesame oil, sherry, soy sauce, about half the garlic, half the ginger, 1 teaspoon of the cornstarch and 1 teaspoon salt. Marinate at room temperature for 15 minutes. Mix the remaining 1 tablespoon cornstarch with 1/3 cup water in a small bowl and reserve. 2. Heat a large nonstick skillet over high heat. Add 1 tablespoon of the vegetable oil and heat. Add the broccoli stems and stir-fry for 30 seconds. Add the florets and the remaining garlic and ginger, 2 tablespoons water, 1/4 teaspoon salt and some black pepper. Stir-fry until the broccoli is bright green but still crisp, about 2 minutes. Transfer to a plate. 3. Get the skillet good and hot again, and then heat the remaining 2 tablespoons vegetable oil. Add the chicken and red pepper flakes if using. Stir-fry until the chicken loses its raw color and gets a little brown, about 3 minutes. Add the hoisin sauce, return the broccoli to the pan and toss to heat through. Stir in the reserved cornstarch mixture and bring to a boil to thicken. Add more water if need to thin the sauce, if necessary. Taste and season with salt and pepper, if you like. 4. Mound the stir-fry on a serving platter or divide among 4 plates and garnish with sesame seeds; serve with rice.");
-System.out.println("Yields: 4 servings");
+          else if (op.equals(min)) {
+System.out.println("Ingredients: 1 cup vanilla-flavored unsweetened almond milk 1 cup plain low-fat (2 percent) Greek yogurt 2 tablespoons pure maple syrup (preferably grade B), plus 4 teaspoons for serving 1 teaspoon pure vanilla extract Kosher salt 1/4 cup chia seeds 1 pint strawberries, hulled and chopped 1/4 cup sliced almonds, toasted ");
+ System.out.println("Directions:1. 1. In a medium bowl, gently whisk the almond milk, yogurt, 2 tablespoons maple syrup, the vanilla and 1/8 teaspoon salt until just blended. Whisk in the chia seeds; let stand 30 minutes. Stir to distribute the seeds if they have settled. Cover and refrigerate overnight.  The next day, in a medium bowl, toss the berries with the remaining 4 teaspoons maple syrup. Mix in the almonds  Spoon the pudding into 4 bowls or glasses; mound the berry mixture on top and serve.");
+System.out.println("Yields: 4 servings.");
+              
           }
-else {
-              System.out.println("Invalid input! Enter a Lunch Option:");
+         else {
+              System.out.println("Invalid input! Enter a Breakfast Option:");
           }  
-          
       }
   }
   private static int findGCD(int num3, int num4) {
